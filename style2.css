@@ -1,0 +1,67 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a2e;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+            color: white;
+	padding: 20px;
+	background-image: url('https://images3.alphacoders.com/759/759633.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position : top
+	;
+        }
+        .container {
+            margin-top: 50px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid white;
+        }
+ input {
+            background: #333;
+            color: white;
+        }
+        button {
+            background: #d9dfff;
+            color: darkred;
+			font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #e68900;
+        }
+        .result {
+            margin-top: 20px;
+        }
+tbody{
+	 font-weight: bold;
+}
+.astronaut {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 200px;
+    z-index: 0;
+}
+.satellite {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 100px;
+    z-index: 0;
+}
